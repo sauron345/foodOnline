@@ -10,4 +10,5 @@ class CustomUserAdmin(UserAdmin):
     filter_horizontal = ()
     fieldsets = ()
 
+    list_editable = ['is_active']
 admin.site.register(UserProfile)
