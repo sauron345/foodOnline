@@ -13,6 +13,7 @@ from django.utils.http import urlsafe_base64_decode
 from vendor.models import Vendor
 # Create your views here.
 
+
 # Restrict the vendor from accessing the customer page
 def check_role_vendor(user):
     if user.role == 1:

@@ -15,7 +15,7 @@ def detectUser(user):
         redirectUrl = 'custDashboard'
         return redirectUrl
     elif user.role is None and user.is_superadmin:
-        redirectUrl = '/admin/'
+        redirectUrl = 'admin'
         return redirectUrl
 
 
