@@ -2,6 +2,7 @@ from django.db import models
 from accounts.models import User, UserProfile
 from accounts.utils import send_notification
 
+
 # Create your models here.
 class Vendor(models.Model):
     user = models.OneToOneField(User, related_name='user', on_delete=models.CASCADE)

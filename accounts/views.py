@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-# from django.http import HttpResponse
 from .forms import UserForm
 from .models import User, UserProfile
 from django.contrib import messages
