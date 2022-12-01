@@ -79,8 +79,5 @@ N
 vendor/views.py,d\f\dfdb18385ec0e0fa0d49ea263c1441fc8c381848
 A
 accounts/forms.py,4\2\423d51d4f9a16166c3e1046d2a92cb79899b60d0
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 S
 #foodOnline/static/css/bootstrap.css,5\1\51e85f5fe1ba9af510096b6e79de6269d493ac5f
