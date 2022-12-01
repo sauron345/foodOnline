@@ -1,5 +1,6 @@
 let autocomplete;
 
+
 function initAutoComplete(){
 autocomplete = new google.maps.places.Autocomplete(
     document.getElementById('id_address'),
@@ -11,6 +12,7 @@ autocomplete = new google.maps.places.Autocomplete(
 // function to specify what should happen when the prediction is clicked
 autocomplete.addListener('place_changed', onPlaceChanged);
 }
+
 
 function onPlaceChanged (){
     var place = autocomplete.getPlace();
@@ -62,3 +64,68 @@ function onPlaceChanged (){
         }
     }
 }
+
+
+$(document).ready(function (){
+    $('.add_to_cart').on('click', function(e){
+        e.preventDefault();
+        food_id = $(this).attr('data-id');
+        url = $(this).attr('data-url');
+
+        data = {
+            'food_id': food_id,
+        }
+
+        $.ajax({
+            type: 'GET',
+            url: url,
+            data: data,
+            success: function (response){
+                console.log(response)
+                $('#cart_counter').html(response.cart_counter['cart_count']);
+                $('#qty-'+food_id).html(response.qty);
+
+            }
+        })
+    })
+
+
+    // place the cart item quantity on load
+    $('.item_qty').each(function (){
+        // var = variable (zmienna)
+        var the_id = $(this).attr('id')
+        var qty = $(this).attr('data-qty')
+        $('#'+the_id).html(qty)
+    })
+
+
+    // decrease cart
+    $('.decrease_cart').on('click', function(e){
+        e.preventDefault();
+
+        food_id = $(this).attr('data-id');
+        url = $(this).attr('data-url');
+
+        data = {
+            'food_id': food_id,
+        }
+
+        $.ajax({
+            type: 'GET',
+            url: url,
+            data: data,
+            success: function (response){
+                $('#cart_counter').html(response.cart_counter['cart_count']);
+                $('#qty-'+food_id).html(response.qty);
+
+            }
+        })
+    })
+});
+
+
+
+// znikanie wiadomości
+setTimeout(function() {
+    $('.message').fadeOut('slow');
+}, 3000);
