@@ -28,11 +28,11 @@ class Vendor(models.Model):
                     'is_approved': self.is_approved,
                 }
                 if self.is_approved is True:
-                    # Send noification email
+                    # Send notification email
                     mail_subject = "Congratulations! Your restaurant has been approved."
                     send_notification(mail_subject, mail_template, context)
                 else:
-                    # Send noification email
+                    # Send notification email
                     mail_subject = "We're sorry! You are not eligible for publishing your food menu on our marketplace."
                     send_notification(mail_subject, mail_template, context)
 
