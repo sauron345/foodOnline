@@ -1,5 +1,6 @@
 from .models import Cart
 from menu.models import FoodItem
+from django.conf import settings
 
 
 def get_cart_counter(request):
@@ -31,3 +32,7 @@ def get_cart_amounts(request):
         grand_total = subtotal + tax
 
     return dict(tax=tax, subtotal=subtotal, grand_total=grand_total)
+
+
+def get_google_api(request):
+    return {'GOOGLE_API_KEY': settings.GOOGLE_API_KEY}
