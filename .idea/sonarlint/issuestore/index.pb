@@ -47,8 +47,6 @@ C
 marketplace/apps.py,a\9\a97dc03839a1d884ad350c11e7f161d458a1e34a
 C
 static/js/custom.js,6\b\6b32a17df2c5218436f2fac859d5cbc24416ec95
-D
-marketplace/admin.py,2\a\2a90149bbe2329900d6714042fcb018a6638efef
 M
 templates/accounts/login.html,d\6\d635734ec82b993014291a930b7e4273b5774e0a
 :
@@ -56,8 +54,6 @@ M
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 R
 "templates/vendor/add_category.html,1\1\110fd2a2aa91e0fc002840e8ddd29d80beebbf32
-O
-templates/marketplace/cart.html,d\d\dd7dd8513ded598e3a26bcca6908f14a3a83b08f
 N
 foodOnline/static/js/tag-it.js,7\e\7ec05ee3485d9a689778b7f0e0a309ef656bc129
 S
@@ -82,18 +78,10 @@ M
 templates/includes/cover.html,e\5\e5f963ba83fc8018ec3f8badf5a91268c28f00fa
 D
 marketplace/tests.py,8\8\8866da4d2fa543af2cf55ce2f79a71358f906ee9
-F
-foodOnline/settings.py,f\1\f118e31bcfb78d186ba76c4ef568fc27744617c2
 =
 menu/forms.py,c\7\c7444fa5c3118bf340e995ca1e2c80bb3356cdd8
 A
 accounts/forms.py,4\2\423d51d4f9a16166c3e1046d2a92cb79899b60d0
-Q
-!marketplace/context_processors.py,7\c\7cf404146ca8d1a8868e245036e1dd3d09043877
->
-menu/models.py,2\5\25abc5760e9315627fd8fbee6afe7f89452e779b
-E
-marketplace/models.py,3\d\3d2b3a46c1ed37172db864528c7155bbd0b11bd9
 B
 accounts/models.py,6\1\61552fe05711cbaa3244c18deedf1d76e08d2649
 R
@@ -110,3 +98,17 @@ C
 foodOnline/views.py,a\e\ae2fbd813efb6dafff736c8c8909c13ee26ce804
 =
 menu/tests.py,5\7\575861947ae70d02bc3a36ecbf00496ce8009d06
+C
+templates/base.html,d\a\da7c237b85a69c00a9ab8c189bf63e22070fcac3
+>
+vendor/urls.py,7\5\75706f94d6a22872ed46c77b2b81c07eb34da5a1
+Q
+!templates/includes/v_sidebar.html,5\5\5555951f2090a11adcc34a616f035d6a5c202136
+?
+vendor/admin.py,e\e\eef94640b5495a9f88d770d6e126813f0531baa0
+P
+ foodOnline/static/css/custom.css,5\9\59c1ba93822052190714374cb065a52205401c5c
+?
+vendor/forms.py,4\0\40c684d77631a8ad0115370b9cd2b1c4b88f85a3
+Q
+!templates/includes/c_sidebar.html,8\6\86cba1747830affb0622d49e26666f5fbedcb8f2

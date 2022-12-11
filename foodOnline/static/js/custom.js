@@ -82,7 +82,7 @@ $(document).ready(function (){
             url: url,
             data: data,
             success: function (response){
-                console.log(response)
+                // console.log(response)
                 if (response.status == 'login_required'){
                     swal(response.message, '', 'info').then(function (){
                         window.location = '/login'
@@ -95,7 +95,7 @@ $(document).ready(function (){
 
                     applyCartAmounts(
                         response.cart_amounts['subtotal'],
-                        response.cart_amounts['tax'],
+                        response.cart_amounts['tax_dict'],
                         response.cart_amounts['grand_total'],
                     )
                 }
@@ -130,7 +130,7 @@ $(document).ready(function (){
             url: url,
             data: data,
             success: function (response){
-                console.log(response)
+                // console.log(response)
                 if (response.status == 'login_required'){
                     swal(response.message, '', 'info').then(function (){
                         window.location = '/login';
@@ -143,7 +143,7 @@ $(document).ready(function (){
 
                     applyCartAmounts(
                             response.cart_amounts['subtotal'],
-                            response.cart_amounts['tax'],
+                            response.cart_amounts['tax_dict'],
                             response.cart_amounts['grand_total'],
                     )
 
@@ -180,7 +180,7 @@ $(document).ready(function (){
 
                     applyCartAmounts(
                         response.cart_amounts['subtotal'],
-                        response.cart_amounts['tax'],
+                        response.cart_amounts['tax_dict'],
                         response.cart_amounts['grand_total'],
                     )
 
@@ -206,11 +206,15 @@ $(document).ready(function (){
     }
 
     // zastosuj kwote koszyka
-    function applyCartAmounts(subtotal, tax, grand_total){
+    function applyCartAmounts(subtotal, tax_dict, grand_total){
         if (window.location.pathname == '/cart/') {
             $('#subtotal').html(subtotal);
-            $('#tax').html(tax);
             $('#total').html(grand_total);
+
+            for (key1 in tax_dict) {
+                for (key2 in tax_dict[key1])
+                    $('#tax-'+key1).html(tax_dict[key1][key2])
+            }
         }
     }
 
