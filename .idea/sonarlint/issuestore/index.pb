@@ -52,8 +52,6 @@ R
 "templates/vendor/menu_builder.html,f\8\f88c877ab6f22322f9424f90231bb756759952b3
 N
 foodOnline/static/js/jquery.js,6\3\6319ac80f2a3bd60e445b49ea97a93f3bf6c4cac
-W
-'templates/accounts/vendorDashboard.html,6\9\69f2228b54140cf78adb5e82455ee3b0ca732d5b
 =
 menu/tests.py,5\7\575861947ae70d02bc3a36ecbf00496ce8009d06
 ?
@@ -71,25 +69,13 @@ D
 N
 templates/vendor/vprofile.html,0\5\05b9e920a2d0cf4d5fcb5804a3dcaf7f1157fd64
 A
-accounts/views.py,b\a\ba7590f6f358542018b74d55cb2e357917bab56c
-@
-accounts/urls.py,6\0\605dfdd3d50bf83b921d6fff90cbd98052a71d27
-U
-%templates/accounts/custDashboard.html,3\1\31593cc7aa3c8a747d21d7dfa2e8505acf41d89f
-@
-customer/urls.py,4\0\404c877a86fc6c9579dfc34c47be86f67b52151a
-A
 accounts/forms.py,4\2\423d51d4f9a16166c3e1046d2a92cb79899b60d0
 Q
 !templates/includes/v_sidebar.html,5\5\5555951f2090a11adcc34a616f035d6a5c202136
-Q
-!templates/includes/c_sidebar.html,8\6\86cba1747830affb0622d49e26666f5fbedcb8f2
 N
 templates/includes/alerts.html,9\4\94f2a8672ca81ec8ed3d217e4e7773d1061518f0
 S
 #templates/marketplace/listings.html,f\5\f51deb75e34a3a7e1c242d55aac73ae150152656
-A
-customer/views.py,1\f\1f573f70bcc1069c8314e0a5dad70f594f2e137c
 C
 foodOnline/views.py,a\e\ae2fbd813efb6dafff736c8c8909c13ee26ce804
 N
@@ -120,9 +106,37 @@ N
 orders/admin.py,d\9\d9efc05ce2527d6af826ca865059f2379c901566
 N
 foodOnline/static/js/custom.js,7\9\7904c96a7fb5888bff93b50b1e3bbff17f168722
-M
-templates/customer/cover.html,2\2\22c4916e55f33e4a0bc5259d35550645207dcfad
 ?
 orders/tests.py,a\0\a0772085b43c346b0c3c1a5c19009e505814ec91
 E
 marketplace/models.py,3\d\3d2b3a46c1ed37172db864528c7155bbd0b11bd9
+>
+menu/models.py,2\5\25abc5760e9315627fd8fbee6afe7f89452e779b
+C
+templates/base.html,d\a\da7c237b85a69c00a9ab8c189bf63e22070fcac3
+P
+ templates/customer/cprofile.html,2\c\2c5f4fe1b1b59577587ae82a827548b0a215e654
+?
+orders/utils.py,6\6\66a6dde5217074605eed3d12eba734b4a8c0b20a
+C
+marketplace/urls.py,2\a\2a9c3e15b7ed559518e84df86d07b3bc35b6faaa
+D
+marketplace/views.py,b\8\b8d6f1b1de0397478f72d7789dfe4110be628020
+@
+vendor/models.py,6\6\66dc5001097accdc1066fdd247ad786daa24a851
+?
+orders/forms.py,e\a\ea274d27d4acb86fe272d3ee46209cfa14efbd44
+S
+#templates/marketplace/checkout.html,3\e\3eb0628342bf2e0aa26d0715dcead6c261843cfd
+N
+accounts/context_processors.py,1\2\12f702cd1cfa93dca494a94821593a8c8aa512a3
+P
+ foodOnline/static/css/custom.css,5\9\59c1ba93822052190714374cb065a52205401c5c
+X
+(templates/orders/new_order_received.html,a\a\aaa84850d9819c2ad44f8f0638f01cf503892fc7
+O
+templates/marketplace/cart.html,d\d\dd7dd8513ded598e3a26bcca6908f14a3a83b08f
+^
+.templates/orders/order_confirmation_email.html,9\1\91b725809cc144d752760ce0dbe3909ab1d8acd0
+A
+accounts/utils.py,5\c\5c0efe28d55576dafd1201993083957f77417e53
