@@ -39,7 +39,6 @@ def get_cart_amounts(request):
             tax_dict.update({tax_type: {str(tax_percentage): tax_amount}})
 
         tax = sum(x for key in tax_dict.values() for x in key.values())
-        print(tax_dict)
 
         # tax_dict = {'CGST: {'9.00' : '2.16'}}
 

@@ -22,7 +22,7 @@
                                                         <div>{{ order.city }} - {{ order.pin_code }}</div>
                                                         <div>{{ order.state }}, {{ order.country }}</div>
                                                         <div><strong>Phone: </strong>{{ order.phone }}</div>
-                                                        <div><strong>Email: </strong>{{ order.address }}</div>
+                                                        <div><strong>Email: </strong>{{ order.email }}</div>
                                                         <div><strong>Payment: </strong>{{ order.payment_method }}</div>
                                                         <br>
                                                         <div><a href="{% url 'checkout' %}" class="btn btn-outline-danger">Edit</a></div>
@@ -46,7 +46,7 @@
                                         <div id="home" class="tab-pane in active">
                                             <div class="menu-itam-holder">
                                                 <div>
-                                                    <table class="table table-bordered">
+                                                    <table class="tablef table-bordered">
                                                         <tbody>
                                                             {% for item in cart_items %}
                                                                 <tr> {# table row #}
