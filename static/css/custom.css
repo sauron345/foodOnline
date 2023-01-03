@@ -4,3 +4,78 @@
     cursor: pointer;
 }
 
+table > tbody > tr > td {
+    border: none !important;
+}
+
+#opening_hours select {
+    padding: 5px 10px !important;
+}
+
+.btn-success.add_hour {
+    padding: 7px 15px 7px 15px;
+}
+
+/* Hide radio button */
+.payment-method [type=radio]{
+    position: absolute;
+    opacity: 0; /* nieprzezroczystosc */
+    width: 0;
+    height: 0;
+}
+
+/* Image style */
+.payment-method [type=radio] + img{
+    /* wskaznik */
+    cursor: pointer;
+}
+
+/* checked style */
+.payment-method [type=radio]:checked + img{
+    /* zarys */
+    outline: 2px solid #ff0000;
+    padding: 5px;
+}
+
+/* it will be used when your screen's width has less or equal to 480px */
+@media only screen and (max-width: 480px) {
+    a.get-start-btn{
+        display: block;
+        margin-top: 15px !important;
+        margin-left: 0 !important;
+    }
+
+    .main-search-bar{
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
+        background-position: left !important;
+    }
+
+    .user-dashboard{
+        width: 100% !important;
+    }
+
+    .price-holder{
+        margin-right: -23px !important;
+    }
+
+    .menu-itam-holder .menu-itam-list .text-holder h6{
+        margin-left: -21px !important;
+    }
+
+    .quantity-checkout{
+        right: -18px;
+    }
+
+    .table.opening-hours{
+        width: 100% !important;
+    }
+
+    .table td, .table th{
+        padding: 0.5rem;
+    }
+}
+
+table td, table th{
+    line-height: 1rem !important;
+}

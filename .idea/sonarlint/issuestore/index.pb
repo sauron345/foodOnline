@@ -23,9 +23,6 @@ C
 static/js/custom.js,6\b\6b32a17df2c5218436f2fac859d5cbc24416ec95
 M
 templates/accounts/login.html,d\6\d635734ec82b993014291a930b7e4273b5774e0a
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 N
 foodOnline/static/js/tag-it.js,7\e\7ec05ee3485d9a689778b7f0e0a309ef656bc129
 S
@@ -60,12 +57,8 @@ A
 accounts/forms.py,4\2\423d51d4f9a16166c3e1046d2a92cb79899b60d0
 N
 templates/includes/alerts.html,9\4\94f2a8672ca81ec8ed3d217e4e7773d1061518f0
-S
-#templates/marketplace/listings.html,f\5\f51deb75e34a3a7e1c242d55aac73ae150152656
 =
 menu/views.py,c\f\cf54496be45b14290ce31d95735b1ba65052c1a0
-;
-.env-sample,b\3\b379e101f5d640f3606473761ee046c5fd5ae067
 R
 "templates/vendor/add_category.html,1\1\110fd2a2aa91e0fc002840e8ddd29d80beebbf32
 [
@@ -74,16 +67,10 @@ O
 templates/vendor/edit_food.html,0\f\0fcceae4ddec92c8720e755ba655dcfbbdee3ef4
 N
 templates/vendor/add_food.html,8\c\8cb63d606cbb32e5a3ac4dbbb997dcb92bc57e49
-N
-foodOnline/static/js/custom.js,7\9\7904c96a7fb5888bff93b50b1e3bbff17f168722
 ?
 orders/tests.py,a\0\a0772085b43c346b0c3c1a5c19009e505814ec91
 P
  templates/customer/cprofile.html,2\c\2c5f4fe1b1b59577587ae82a827548b0a215e654
-P
- foodOnline/static/css/custom.css,5\9\59c1ba93822052190714374cb065a52205401c5c
-O
-templates/marketplace/cart.html,d\d\dd7dd8513ded598e3a26bcca6908f14a3a83b08f
 M
 templates/customer/cover.html,2\2\22c4916e55f33e4a0bc5259d35550645207dcfad
 ?
@@ -92,8 +79,6 @@ F
 accounts/validators.py,2\b\2bd584e3b7eb80f044350e822eb541c04aab028d
 C
 accounts/signals.py,9\4\9450315f7612a9043073fa95139b026334879f1d
-S
-#templates/marketplace/checkout.html,3\e\3eb0628342bf2e0aa26d0715dcead6c261843cfd
 B
 customer/models.py,1\f\1f1929f60683e58c594f142eb9185ef6b35b4119
 Q
@@ -108,8 +93,6 @@ N
 orders/apps.py,9\6\96d34b3193e5dcf26fb20326134c1da87e3bb7fc
 B
 accounts/models.py,6\1\61552fe05711cbaa3244c18deedf1d76e08d2649
-C
-templates/home.html,8\6\86f3a00c4de0ad1280042b4c75ce3672e5141a0f
 C
 foodOnline/views.py,a\e\ae2fbd813efb6dafff736c8c8909c13ee26ce804
 B
@@ -148,10 +131,6 @@ Q
 vendor/views.py,d\f\dfdb18385ec0e0fa0d49ea263c1441fc8c381848
 S
 #templates/vendor/edit_category.html,4\2\42fd518332c82b67feb67d3ed0cf378cd7495d9a
-F
-foodOnline/settings.py,f\1\f118e31bcfb78d186ba76c4ef568fc27744617c2
-X
-(templates/marketplace/vendor_detail.html,e\0\e081a9ee9046cf98427f1b285aacface40fc8d13
 A
 accounts/views.py,b\a\ba7590f6f358542018b74d55cb2e357917bab56c
 D
@@ -164,7 +143,41 @@ C
 vendor/models.py,6\6\66dc5001097accdc1066fdd247ad786daa24a851
 >
 menu/models.py,2\5\25abc5760e9315627fd8fbee6afe7f89452e779b
-^
-.foodOnline/static/css/cs-foodbakery-plugin.css,c\0\c06901984d007f4e297235ac09a9ae5dbb58b3e0
 Q
 !marketplace/context_processors.py,7\c\7cf404146ca8d1a8868e245036e1dd3d09043877
+E
+marketplace/models.py,3\d\3d2b3a46c1ed37172db864528c7155bbd0b11bd9
+@
+orders/models.py,4\5\4575d7773f10351dfca7116671cf22dcced23ae4
+V
+&templates/accounts/reset_password.html,8\a\8ab453a03621c40fa1f610d192dd6dd49ab92276
+T
+$templates/accounts/registerUser.html,1\9\19c018d7298cbf07f08dcca473c6fb7c3bb188ab
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+?
+orders/utils.py,6\6\66a6dde5217074605eed3d12eba734b4a8c0b20a
+c
+3templates/accounts/emails/reset_password_email.html,7\2\72c0ed05ea99a57b1041364ca77d1c9416fb2238
+A
+accounts/utils.py,5\c\5c0efe28d55576dafd1201993083957f77417e53
+i
+9templates/accounts/emails/account_verification_email.html,a\5\a5ff45b9e39f3fab22335a9b26293d1eafff9c9d
+c
+3templates/accounts/emails/admin_approval_email.html,9\b\9b3af89f952ae5371c355923b7f6f550bba6cf31
+S
+#templates/marketplace/listings.html,f\5\f51deb75e34a3a7e1c242d55aac73ae150152656
+T
+$templates/orders/order_complete.html,b\a\ba58ab50e08ad5a9ad642f0e18b9cdf2b0ade778
+Q
+!templates/orders/place_order.html,3\e\3e54babbdbcf9a3b73792fd2ff3bf2a195840621
+^
+.templates/orders/order_confirmation_email.html,9\1\91b725809cc144d752760ce0dbe3909ab1d8acd0
+X
+(templates/orders/new_order_received.html,a\a\aaa84850d9819c2ad44f8f0638f01cf503892fc7
+?
+orders/views.py,9\7\97b53262cdb30087af0a40ba2e56175486bd4d51
+^
+.foodOnline/static/css/cs-foodbakery-plugin.css,c\0\c06901984d007f4e297235ac09a9ae5dbb58b3e0
+N
+foodOnline/static/js/custom.js,7\9\7904c96a7fb5888bff93b50b1e3bbff17f168722

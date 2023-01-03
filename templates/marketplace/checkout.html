@@ -84,10 +84,10 @@
                                                             <span>{{ item.fooditem.description }}</span>
                                                             <a href="{% url 'vendor_detail' item.fooditem.vendor.vendor_slug %}" class="badge badge-warning">{{ item.fooditem.vendor }}</a>
                                                         </div>
-                                                        <div class="quantity" style="display: inline-block; position: absolute; top: 50%; transform: translateY(-50%); margin-top: -9px">
-                                                                    <span class="quantity">{{ item.quantity }} QTY</span>
+                                                        <div class="quantity-checkout" style="display: inline-block; position: absolute; top: 50%; transform: translateY(-50%); margin-top: -9px">
+                                                            <span class="quantity">{{ item.quantity }} QTY</span>
                                                         </div>
-                                                        <div class="price-holder">
+                                                        <div class="price-holder-checkout">
                                                             <span class="price">${{ item.fooditem.price }}</span>
                                                         </div>
                                                     </li>
