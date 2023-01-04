@@ -101,8 +101,6 @@ R
 "templates/orders/order_detail.html,6\1\619d6a6e758993d883cd0dc2eda140b46e5e4057
 A
 customer/views.py,1\f\1f573f70bcc1069c8314e0a5dad70f594f2e137c
-N
-templates/includes/navbar.html,f\2\f2f4b4c84c73b1a50cddb14c388363225716d069
 C
 templates/base.html,d\a\da7c237b85a69c00a9ab8c189bf63e22070fcac3
 @
