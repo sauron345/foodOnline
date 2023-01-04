@@ -181,3 +181,18 @@ X
 .foodOnline/static/css/cs-foodbakery-plugin.css,c\0\c06901984d007f4e297235ac09a9ae5dbb58b3e0
 N
 foodOnline/static/js/custom.js,7\9\7904c96a7fb5888bff93b50b1e3bbff17f168722
+O
+templates/marketplace/cart.html,d\d\dd7dd8513ded598e3a26bcca6908f14a3a83b08f
+C
+templates/home.html,8\6\86f3a00c4de0ad1280042b4c75ce3672e5141a0f
+S
+#templates/marketplace/checkout.html,3\e\3eb0628342bf2e0aa26d0715dcead6c261843cfd
+X
+(templates/marketplace/vendor_detail.html,e\0\e081a9ee9046cf98427f1b285aacface40fc8d13
+P
+ foodOnline/static/css/custom.css,5\9\59c1ba93822052190714374cb065a52205401c5c
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+;
+.env-sample,b\3\b379e101f5d640f3606473761ee046c5fd5ae067
