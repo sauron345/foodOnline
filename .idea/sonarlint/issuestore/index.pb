@@ -189,3 +189,10 @@ X
 (templates/marketplace/vendor_detail.html,e\0\e081a9ee9046cf98427f1b285aacface40fc8d13
 P
  foodOnline/static/css/custom.css,5\9\59c1ba93822052190714374cb065a52205401c5c
+;
+.env-sample,b\3\b379e101f5d640f3606473761ee046c5fd5ae067
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+;
+backup.json,f\8\f8bcb68d5cdbed7655aee9beb345532c1e063715

@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # cast - changing string type to bool type
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['172.105.91.236', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['172.105.91.236', '127.0.0.1', 'localhost', 'foodonline.com']
 
 
 # Application definition
