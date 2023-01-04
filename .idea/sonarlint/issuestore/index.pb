@@ -77,8 +77,6 @@ M
 orders/forms.py,e\a\ea274d27d4acb86fe272d3ee46209cfa14efbd44
 F
 accounts/validators.py,2\b\2bd584e3b7eb80f044350e822eb541c04aab028d
-C
-accounts/signals.py,9\4\9450315f7612a9043073fa95139b026334879f1d
 B
 customer/models.py,1\f\1f1929f60683e58c594f142eb9185ef6b35b4119
 Q
@@ -191,8 +189,3 @@ X
 (templates/marketplace/vendor_detail.html,e\0\e081a9ee9046cf98427f1b285aacface40fc8d13
 P
  foodOnline/static/css/custom.css,5\9\59c1ba93822052190714374cb065a52205401c5c
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-;
-.env-sample,b\3\b379e101f5d640f3606473761ee046c5fd5ae067
